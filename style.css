@@ -125,7 +125,7 @@ header,
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .logo img {
     width: 300px;
   }
@@ -139,7 +139,7 @@ header,
   }
 
   .text p {
-    font-size: 18px;
+    font-size: 22px;
   }
 }
 
@@ -508,6 +508,13 @@ input.invalid {
     padding-top: 40px;
     font-size: 1.5rem;
     /* Reduz o tamanho do título */
+  }
+}
+
+@media (max-width: 400px) {
+  .card {
+    width: 90%;
+    /* Uma carta por linha em telas pequenas */
   }
 }
 
